@@ -65,7 +65,6 @@ img {
 .image {
   border-radius: 50%;
   border: 5px solid #579b6d;
-  box-shadow: 10px #f3eea7ab;
   float: left;
   transform: scale(0);
   animation: profile 5s ease-out forwards;
@@ -464,23 +463,46 @@ button:hover {
     text-align: center;
     margin: auto;
   }
+  nav {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  margin-top: 0%;
+  padding-top: 0%;
+  justify-content: center;
+}
   .navbar .name {
     margin: 10px auto;
     justify-content: center;
     float: none;
   }
   .prof {
-     margin-top: 100px;
-    display: inline-block;
+     padding-top: 150px;
+    display: block;
+    justify-content: center;
   }
   .prof h2 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .prof p {
+    font-size: 10px;
+  }
+  .image {
+    float: none;
+    margin: 0px auto;
+    height: 200px;
+    width: 200px;
   }
   .totally {
    margin: 20px auto;
   }
   .card {
     margin-bottom: 10px; 
+  }
+ .navbar .nav-links {
+    font-size: 10px;
+    float: none;
+    margin: 10px auto;
   }
    
 }
